@@ -1,0 +1,12 @@
+p{
+	text-align: justify;
+}
+p::selection{
+	background-color: green;
+	color: black;
+	text-shadow: 1px 1px #fff;
+}
+h1:hover{
+	color: darkturquoise;
+    text-shadow: -3px -2px #ccf;
+}

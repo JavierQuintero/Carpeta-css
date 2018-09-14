@@ -1,0 +1,45 @@
+table {
+    width: 50%;
+    border-collapse: collapse;
+    
+}
+
+table, th, td{
+		border: 1px solid black;
+}
+
+th,td {
+    width: 100px;
+    height: 30px;
+}
+
+th {
+    text-align: right;
+    vertical-align: top;
+}
+
+td {
+    vertical-align: bottom;
+    text-align: left;
+}
+
+tbody tr:nth-child(odd){
+    background-color: #d1d1d1;
+}
+
+tbody tr:hover:nth-child(even){
+	background-color: #d5cdcd;
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 1.3em;
+	opacity: .7;
+	transition: opacity .8s;
+	color: #fff;
+}
+tbody tr:hover:nth-child(odd){
+	font-family: 'IBM Plex Serif', serif;
+	background-color: #b6aeaa;
+	font-size: 1.2em;
+	opacity: .5;
+	transition: opacity .8s;
+	color: #fff;
+}

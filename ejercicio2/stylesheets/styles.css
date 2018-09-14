@@ -1,0 +1,16 @@
+body{
+	background-color: black;
+	color: white;
+	font-family: Verdana;
+}
+h1 {
+	font-family: Arial;
+}
+.Info{
+	color: white;
+	display: block;
+}
+div{
+	margin-top: 10px;
+	margin-left: 20px;
+}
